@@ -1,7 +1,8 @@
 import turtle
 
+#turtle and size of line
 def drawSquare(t, sz):
-	"""Make turtle t draw a square of the side sz."""
+    """Make turtle t draw a square of the side sz."""
 
 	for i in range(4):
 		t.forward(sz)
